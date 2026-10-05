@@ -6,11 +6,11 @@ Design, analysis and simulation of a 4-degree-of-freedom welding robot arm of ty
 
 | Folder | Content | Tools |
 |---|---|---|
-| [`01_thiet_ke_solidworks`](01_thiet_ke_solidworks) | 3D models of the links, assemblies, welding head, technical drawings | SolidWorks |
-| [`02_dong_luc_hoc_maple`](02_dong_luc_hoc_maple) | Derivation of the robot's differential equations of motion | Maple |
-| [`03_dong_hoc_quy_dao_python`](03_dong_hoc_quy_dao_python) | Forward/inverse kinematics (DH), Jacobian, workspace, manipulability index, LSPB trajectories in joint space and Cartesian space, animation | Python |
-| [`04_bo_dieu_khien_IDPD_simulink`](04_bo_dieu_khien_IDPD_simulink) | IDPD (Inverse Dynamics PD) trajectory-tracking controller | MATLAB / Simulink |
-| [`05_mo_phong_ros2`](05_mo_phong_ros2) | URDF model, Gazebo + RViz simulation, per-joint position control using Gazebo's PID | ROS 2 Jazzy, Gazebo Harmonic |
+| [`solid_des`](solid_des) | 3D models of the links, assemblies, welding head, technical drawings | SolidWorks |
+| [`mapler`](maple) | Derivation of the robot's differential equations of motion | Maple |
+| [`trajectory`](trajectory) | Forward/inverse kinematics (DH), Jacobian, workspace, manipulability index, LSPB trajectories in joint space and Cartesian space, animation | Python |
+| [`IDPD_simulink`](IDPD_simulink) | IDPD (Inverse Dynamics PD) trajectory-tracking controller | MATLAB / Simulink |
+| [`sim_ros2`](sim_ros2) | URDF model, Gazebo + RViz simulation, per-joint position control using Gazebo's PID | ROS 2 Jazzy, Gazebo Harmonic |
 
 ## Robot parameters (DH)
 
